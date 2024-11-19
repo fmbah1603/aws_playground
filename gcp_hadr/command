@@ -1,3 +1,4 @@
 gcloud projects add-iam-policy-binding <PROJECT_ID> \
     --member="serviceAccount:<PROJECT_ID>@appspot.gserviceaccount.com" \
     --role="roles/storage.objectAdmin"
+Error waiting to create StandardAppVersion: Error waiting for Creating StandardAppVersion: Error code 13, message: Failed to create cloud build: com.google.net.rpc3.client.RpcClientException: <eye3 title='/ArgoAdminNoCloudAudit.CreateBuild, FAILED_PRECONDITION'/> APPLICATION_ERROR;google.devtools.cloudbuild.v1/ArgoAdminNoCloudAudit.CreateBuild;invalid bucket "staging.sbx-opa-uswest-79ac.appspot.com"; service account sbx-opa-uswest-79ac@appspot.gserviceaccount.com does not have access to the bucket;AppErrorCode=9;StartTimeMs=1731982653286;unknown;ResFormat=uncompressed;ServerTimeSec=1.244726766;LogBytes=256;Non-FailFast;EndUserCredsRequested;EffSecLevel=privacy_and_integrity;ReqFormat=uncompressed;ReqID=50a4e3c34daa6539;GlobalID=0;Server=[2002:acd:f7b2:0:b0:269:21c2:d512]:4001.
